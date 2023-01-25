@@ -3,8 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace ApexRestaurant.Repository
 {
-    public abstract class GenericRepository<T> : IGenericRepository<T>
-        where T : class, new()
+    public abstract class GenericRepository<T> : IGenericRepository<T> where T : class, new()
     {
         protected RestaurantContext DbContext { get; set; }
 
