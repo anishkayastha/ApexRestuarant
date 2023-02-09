@@ -1,12 +1,10 @@
 # Lab Report
 
 ## Objectives
----
 
 * to configure the web api connection and use Postman to test the api.
 
 ## Introduction
----
 
 REST APIs work by sending HTTP requests to a server and receiving a response. Here's a simple example of how a REST API works:
 
@@ -21,7 +19,6 @@ REST APIs work by sending HTTP requests to a server and receiving a response. He
 The specific details of the request and response (such as the URL endpoint, the HTTP method, the request headers and body, etc.) depend on the API design. REST APIs use standard HTTP methods (GET, POST, PUT, DELETE, etc.) to perform operations on resources, and often return data in JSON format. RESTful API design follows the principles of REST, which include the use of a uniform interface, the use of stateless communication, and the ability to cache responses.
 
 ## Procedure
----
 
 1. Navigate to “appsettings.json” file and add “ConnectionStrings” section:
 
@@ -161,7 +158,6 @@ The specific details of the request and response (such as the URL endpoint, the 
 6. Build the project to ensure there are no errors.
 
 ## Output
----
 
 ![](image_01.png "image_01")
 ![](image_02.png "image_02")
@@ -169,6 +165,5 @@ The specific details of the request and response (such as the URL endpoint, the 
 ![](image_04.png "image_04")
 
 ## Conclusion
----
 
 On this lab, we learned how to set up the connection and test the API using Postman. Understanding various request methods and status codes with particular messages.
